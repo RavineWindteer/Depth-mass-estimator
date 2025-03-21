@@ -1,0 +1,3 @@
+python ./code/train.py --dataset amazon --pc_model pointnet --save_model --start_epoch 1 --epochs 50 --ckpt_dir ./ckpts/best.ckpt
+
+python ./code/train.py --dataset amazon --pc_model pointnet --use_2_datasets True --dataset2 shapenetsem --pc_completion True --save_model --start_epoch 1 --epochs 50 #--ckpt_dir ./ckpts/best.ckpt

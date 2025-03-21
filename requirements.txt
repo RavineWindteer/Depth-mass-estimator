@@ -1,0 +1,15 @@
+pip install torch==1.7.0+cu110 torchvision==0.8.1+cu110 torchaudio==0.7.0 -f https://download.pytorch.org/whl/torch_stable.html
+pip install h5py==3.6.0
+pip install scipy==1.7.3
+pip install opencv-python==4.5.5.64
+pip install mmcv==1.4.3
+pip install timm==0.5.4
+pip install albumentations==1.1.0
+pip install tensorboardX==2.4.1
+pip install gdown==4.2.1
+pip install OpenEXR==3.2.3
+pip install pandas==1.2.5
+pip install lz4==3.1.1
+pip install pyvista==0.35.2
+pip install matplotlib==3.5.3
+pip install open3d==0.17.0
